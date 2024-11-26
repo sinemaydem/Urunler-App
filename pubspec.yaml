@@ -1,0 +1,42 @@
+name: bitirme
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.0
+  http: ^1.2.2
+  dio: ^5.2.0
+  sqflite: ^2.2.0
+  path: ^1.8.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - veritabani/adresler.sqlite
+
+  uses-material-design: true
+
+  fonts:
+    - family: Modak
+      fonts:
+        - asset: fonts/Modak-Regular.ttf
+
+    - family: CherryBombOne
+      fonts:
+        - asset: fonts/CherryBombOne-Regular.ttf
+
+    - family: Baumans
+      fonts:
+        - asset: fonts/Baumans-Regular.ttf
